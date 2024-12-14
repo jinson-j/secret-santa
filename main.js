@@ -226,7 +226,7 @@ async function pair() {
 
         const mailOptions = {
             from: process.env.EMAIL_ADDRESS,
-            to: santa.email, // change to santa.email when running fo-real! (can use temp email for testing)
+            to: santa.email,                // change to santa.email when running fo-real! (can use temp email for testing)
             subject: "Secret Santa Event",  //  ^ all mail should go to proper recipient 
             text: `HO HO HO! Drumroll please!... \nYou (${santa.username}) are the Secret Santa for ${recipient.username}! \nThey requested: \n${recipient.gift} \nRemember to spend between $20 and $30!`,
         };
