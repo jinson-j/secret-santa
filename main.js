@@ -97,6 +97,7 @@ async function initializeDB() {
 }
 
 // ============ Server ============
+
 process.stdin.setEncoding("utf8"); 
 process.stdin.on("readable", () => {     
     const dataInput = process.stdin.read();
