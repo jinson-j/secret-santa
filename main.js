@@ -285,7 +285,7 @@ async function createGoogleCalendarEventForUser(user) {
             },
             attendees: [{email: user.email}],  
             reminders: {
-                useDefault: true, // :(
+                useDefault: true, // >:(
             },
             sendUpdates: "all", // bro these do nothing so I use nodemailer
         },
